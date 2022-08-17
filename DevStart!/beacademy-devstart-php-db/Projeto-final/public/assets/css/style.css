@@ -1,0 +1,37 @@
+.modal-body img{
+    width: 100%;
+    margin: 0px auto;
+    object-fit: contain;
+    height: 540px;
+}
+.container-form{
+    margin: 0px;
+    padding: 0px;
+    width: 380px;
+}
+.form1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.form1 figure img{
+    object-fit: contain;
+    width: 380px;
+}
+tr td{
+    font-size: 14px;
+}
+.modal-body img{
+    width: 100%;
+    margin: 0px auto;
+    object-fit: contain;
+    height: 540px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}

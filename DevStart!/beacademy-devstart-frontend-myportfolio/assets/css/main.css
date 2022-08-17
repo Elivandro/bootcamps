@@ -1,0 +1,69 @@
+/* Resete User-Agent */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid #f00; */
+}
+html{
+    font-size: 16px;
+    font-family: "Roboto", Verdana, sans-serif;
+    background-color: #000;
+}
+h1{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 900;
+}
+h1 > span{
+    color: #DCF64B;
+}
+h2{
+    margin: 0;
+    color: #fff;
+    font-weight: 400;
+    font-size: 2rem;
+}
+h3{
+    margin: 0;
+    font-weight: 300;
+    font-size: 4.8rem;
+    text-align: center;
+}
+p{
+    margin: 0 auto;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+img{
+    display: block;
+}
+ul{
+    list-style: none;
+}
+textarea{
+    height: 4rem;
+}
+button{
+    cursor: pointer;
+}
+input[type="text"], input[type="email"], textarea{
+    width: 80%;
+    margin-bottom: 1rem;
+    padding: 1.25rem;
+    resize: none;
+    outline: none;
+    color: #fff;
+    border-radius: .5rem;
+    border: 1px solid #1e1e1e;
+    background-color: #1e1e1e;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all .4s;
+}
+input[type="text"]:hover, input[type="email"]:hover, textarea:hover{
+    border: 1px solid #DCF64B;
+}
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus{
+    border: 1px solid #fff;
+}

@@ -1,0 +1,145 @@
+.btn{
+    display: inline-block;
+    width: 64px;
+    padding: 6px 22px;
+    border: 3px solid var(--color-black);
+    border-radius: 12px;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0px 5px 5px var(--color-black);
+    color: var(--color-white);
+    background-color: var(--color-darkviolet);
+    box-shadow: inset 5px 5px 5px var(--color-black);
+    transition: all 1.2s;
+}
+.btn-sm{
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 22px;
+    text-decoration: none;
+    color: var(--color-black);
+    box-shadow: inset 0px 0px 5px var(--color-black);
+
+}
+.btn-sm:hover{
+    background-color: var(--color-lightviolet);
+    box-shadow: 5px 2px 5px var(--color-black);
+}
+.btn-empty{
+    width: 140px;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 3px solid;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--color-black);
+    box-shadow: inset 5px 3px 8px var(--color-black);
+    transition: all 1.2s;
+}
+.btn-empty:hover{
+    cursor: pointer;
+    color: var(--color-white);
+    background-color: var(--color-darkviolet);
+    border-color: var(--color-black);
+    box-shadow: 3px 3px 8px var(--color-black);
+
+}
+.btn-close{
+    width: 32px;
+    height: 32px;
+    border: 3px solid var(--color-black);
+    border-radius: 12px;
+    font-size: 18px;
+}
+.form{
+    margin-top: 40px;
+    padding: 40px 80px;
+    height: auto;
+    display: grid;
+    place-items: center;
+    border-radius: 12px;
+    border: 3px solid var(--color-darkviolet);
+}
+.form-group{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.link-forget{
+    text-decoration: none;
+}
+.link-forget:hover{
+    text-decoration: underline;
+}
+.form-group-row{
+    gap: 40px;
+    display: flex;
+}
+.form-group-column{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.input-group-append{
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    color: var(--color-black);
+
+}
+.form-group-btn{
+    margin-top: 10px;
+}
+.form-group input{
+    width: 300px;
+    color: var(--color-black);
+    border: none;
+    border-bottom: 2px solid var(--color-darkviolet);
+    padding: 15px 15px 5px 0;
+    font-family: helvetica;
+    outline: none;
+}
+.form-group label{
+    text-decoration: captalize;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: var(color-gray);
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: bold;
+    pointer-events: none;
+    transition: all .3s;
+}
+.form-group input:focus + label, .input-group-append,
+.form-group input:not(:placeholder-shown) + label{
+    transform: translateY(-30px);
+    font-size: 14px;
+    color: var(--color-black);
+}
+.title-form{
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+input:focus{
+    border-bottom: 3px solid var(--color-lightviolet);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,1 @@
+    <h1>UserController Exception | {{ $message }}</h1>

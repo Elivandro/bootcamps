@@ -1,0 +1,53 @@
+.overlay-age-wall {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 280px;
+  height: auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;;
+}
+
+.box > p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.box-btns {
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.box-btn {
+   background-color: #9B0000;
+   color: white;
+   border: none;
+   border-radius: 1.5rem;
+   padding: .7rem 1.5rem;
+}
+
+.box-btn-outline {
+  background-color: transparent;
+  color: #9B0000;
+  border: 1px solid #9B0000;
+}
+
+.overlay-age-wall-warning {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}

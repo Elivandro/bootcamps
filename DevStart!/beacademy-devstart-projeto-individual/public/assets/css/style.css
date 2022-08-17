@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    border: 0px;
+    --color-darkviolet: #3b3ef4 ;
+    --color-lightviolet: #636ef1;
+    --color-black: #000000;
+    --color-gray: #848484;
+    --color-white: #ffffff;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.max-container{
+    margin: 0px auto;
+    max-width: 1200px;
+}
+.container{
+    margin: 0px auto;
+    width: 100%;
+}
+.header{
+    margin: 0px auto;
+    width: 100%;
+}
+.header figure img{
+    object-fit: cover;
+    width: 100%;
+    height: 235px;
+}
+.header .max-container{
+    margin: 0px auto;
+    width: 100%;
+}
+.nav-menu ul{
+    display: flex;
+    list-style: none;
+}
+.nav-menu ul li{
+    margin-left: 12px;
+}
+.nav-menu ul li:first-child{
+    margin-left: 0px;
+}
+.nav-menu a{
+    padding: 6px 22px;
+    border: 3px solid var(--color-black);
+    border-radius: 12px;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0px 5px 5px var(--color-black);
+    color: var(--color-white);
+    background-color: var(--color-darkviolet);
+    box-shadow: inset 5px 5px 5px var(--color-black);
+    transition: all 1.2s;
+}
+.nav-menu a:hover{
+    background-color: var(--color-lightviolet);
+    box-shadow: 5px 5px 5px var(--color-black);
+}
+.main{
+    margin-top: 20px;
+    width: 100%;
+}
+.main .max-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-container{
+    padding: 20px;
+    width: 80%;
+    border-radius: 15px;
+    border: 3px solid var(--color-black);
+    background-color: var(--color--gray);
+}
+.card-header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.card-content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    font-size: 18px;
+    font-weight: 600;
+}
+.flex-content{
+    margin: 0px 0px 10px;
+    display: flex;
+}
+.card-success{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0px;
+    padding: 20px;
+    border: 3px solid var(--color-black);
+    border-radius: 15px;
+    font-weight: 600;
+    color: var(--color-white);
+    background-color: var(--color-darkviolet);
+}
+.card-margem-top, .margem-top{
+    margin-top: 40px;
+}
+.card-btn{
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-product-group{
+    width: 100%;
+    margin: 20px auto 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 2 auto;
+}
+.card-product-group-wrap{
+    display: flex;
+}
+.card-product{
+    margin: 10px 20px;
+    justify-content: space-evenly;
+    position: relative;
+    width: 360px;
+    border: 1px solid var(--color-darkviolet);
+    box-shadow: 10px 10px 10px var(--color-black);
+}
+.card-product div figure img{
+    margin: 0px;
+    padding: 0px;
+    object-fit: cover;
+    width: 100%;
+    height: 360px;
+}
+.card-product-content h3{
+    text-align: center;
+}
+.card-flex-content{
+    padding: 0px 10px;
+    display: flex;
+    line-height: 32px;
+}
+.card-flex-content{
+    margin-left: 0px;
+}
+.card-product-value{
+    margin-left: 5px;
+    font-size: 12px;
+}
+.remove-card-product{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.update-card-product{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.upload{
+    position: relative;
+}
+.upload img{
+    object-fit: cover;
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #eaeaea;
+  }
+.upload img:hover{
+    border-radius: 50%;
+    border: 6px solid #bfbbbb;
+  }
+.upload .round{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #00B4FF;
+    width: 32px;
+    height: 32px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+.upload .round input[type="file"]{
+    position: absolute;
+    transform: scale(2);
+    opacity: 0;
+  }
+input[type=file]::-webkit-file-upload-button{
+      cursor: pointer;
+  }
+.footer{
+    margin: 20px 0px;
+    padding: 60px 0px;
+    width: 100%;
+    text-align: center;
+}
+.footer .max-container{
+    width: 100%;
+}
+.fa-solid{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid;
+    color: var(--color-black);
+    background-color: var(--color-white);
+    transition: all .8s;
+}
+.fa-solid:hover{
+    color: var(--color-lightviolet);
+}

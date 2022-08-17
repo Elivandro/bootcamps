@@ -1,0 +1,46 @@
+body{
+    background-color: #EFEFEF;
+}
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    max-width: 340px;
+    justify-content: space-between;
+}
+.nav-menu ul li{
+    margin-left: 5px;
+}
+.nav-menu ul li:first-child{
+    margin-left: 0px;
+}
+.nav-menu ul li:only-child{
+    margin-right: 32px;
+}
+.modal-body img{
+    width: 100%;
+    margin: 0px auto;
+    object-fit: contain;
+    height: 540px;
+}
+.container-form{
+    margin: 0px;
+    padding: 0px;
+    width: 380px;
+}
+.form1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.form1 figure img{
+    object-fit: contain;
+    width: 380px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}

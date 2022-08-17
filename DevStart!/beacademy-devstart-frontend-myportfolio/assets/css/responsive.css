@@ -1,0 +1,141 @@
+/* RESPONSIVIDADE */
+@media (max-width: 450){
+    .content-hero h1{
+        margin-top: 50rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 842px){
+    .cabecalho .tamanho-minmax-container {
+        width: 100%;
+    }
+    .links{
+        max-height: 0px;
+        overflow: hidden;
+    }
+    .links li a{
+        justify-content: center;
+        padding: 1.25rem 0;
+    }
+    .links div{
+        justify-content: center;
+    }
+    .links li a span{
+        justify-content: center;
+        color: #000;
+    }
+    .cabecalho .nav-menu{
+        width: 50%;
+    }
+    .nav-menu label {
+        margin: 1rem 2rem 1rem 1rem;
+    }
+    .nav-menu label span{
+        display: block;
+    }
+    .links .social-links{
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 0rem;
+    }
+    .links .social-links:last-child{
+
+        padding-bottom: 20rem;
+    }
+    #menu-icon:checked ~ .links{
+        position: absolute;
+        top: 5rem;
+        left: 0rem;
+        display: block;
+        width: 100%;
+        max-height: 100vh;
+        background-color: #0C0C0C;
+
+    }
+    .content-hero h1{
+        margin-top: 30rem;
+    }
+    .sucess-title {
+        margin-top: 15rem;
+        padding: 0;
+    }
+    .icone-iknows{
+        margin-left: 0rem;
+    }
+    .icone-iknow img{
+        width: 2rem;
+    }
+    .icone-iknows a {
+        margin-left: 1rem;
+    }
+    .sucess-section{
+        flex-wrap: wrap;
+    }
+    .sucess-cards{
+        flex-direction: column;
+    }
+    .cases-section, .about-section, .cases-figures, .contato-section{
+        flex-direction: column;
+        margin-right: 0rem;
+    }
+    .cases-figures{
+        margin-left: 0rem;
+    }
+    .cards, .cards:last-child{
+        width: 90%;
+        margin: 0 auto 2rem;
+    }
+    .about-section figure {
+        margin-right: 0rem;
+    }
+    .about-section figure img{
+        margin: 0 auto;
+        padding: 0;
+        width: 80%;
+    }
+    .about-section h2{
+        font-size: 3.8rem;
+    }
+    .about-section h2, p{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .about-section p{
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+    }
+    .about-texto ul{
+        margin: 2rem auto;
+        justify-content: center;
+    }
+    .contato-texto h2{
+        font-size: 3.5rem;
+        margin-left: 2rem;
+    }
+    .contato-form{
+        width: 100%;
+        margin-right: 0rem;
+        padding: 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (min-width: 843px) and (max-width: 1136px){
+    .content-hero h1{
+        margin-top: 30rem;
+    }
+    .sucess-section{
+        flex-wrap: wrap;
+    }
+    .about-section figure img{
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+    }
+}

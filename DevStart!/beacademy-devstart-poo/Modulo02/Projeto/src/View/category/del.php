@@ -1,0 +1,1 @@
+<p>deletar categoria</p>
