@@ -45,6 +45,11 @@
             <br/>
             <sub>Larissa Bettin</sub>
         </td>
+        <td align="center" valign="middle">
+            <img src="https://www.beacademy.com.br/wp-content/uploads/2019/12/Layer-4-1024x566.png" width="80px"/>
+            <br/>
+            <sub>Be Academy</sub>
+        </td>
     </tr>
     <tr>
         <td align="center" valign="middle">
